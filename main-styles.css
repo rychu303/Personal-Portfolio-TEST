@@ -592,6 +592,10 @@ section#resume div.card {
   .more-sites {
     margin-bottom: 65px;
   }
+  
+  .top-hero-container {
+  background-attachment: initial;
+  }
 }
 
 @media (max-width: 767.98){
@@ -599,8 +603,5 @@ section#resume div.card {
     display: flex;
     flex-direction: column;
   }
-  
-    .top-hero-container {
-      background-attachment: initial;
-  }
+ 
 }
