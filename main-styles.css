@@ -228,10 +228,12 @@ button.resume-btn:before {
 }
 
 .about-me-row {
+  -webkit-align-items: center;
   align-items: center;
 
 }
 .col-md-3 {
+  -webkit-flex-direct: column;
   flex-direction: column;
 }
 /***************PORTFOLIO SECTION**************/
@@ -299,6 +301,7 @@ a.card-link:hover {
   align-items: center;
   -webkit-justify-content: center;
   justify-content: center;
+  -webkit-flex-wrap: wrap;
   flex-wrap: wrap;
   z-index: -1;
 }
@@ -324,6 +327,7 @@ a#sfc.card-link:hover{
 
 #sfc .card-img-background {
   background-image: url('images/sfc-footballer-background-compressed.png');
+  -webkit-transform: scale(100%);
   transform: scale(110%);
 }
 
@@ -422,6 +426,7 @@ a#cms-co-gov.card-link:hover{
 
 #cms-co-gov .card-img-background {
   background-image: url('images/maroon-bells-co.jpeg');
+  -webkit-transform: scale(110%); 
   transform: scale(110%);
 }
 
