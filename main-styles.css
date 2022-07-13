@@ -260,6 +260,9 @@ button.resume-btn:before {
   border-radius: 10px;
   border-style: none;
   min-height: 300px;
+  -webkit-appearance: none;
+  -moz-appearance: none;
+  appearance: none;
 }
 
 section .col-lg-4 {
@@ -286,6 +289,9 @@ a.card-link:hover {
   transition: 0.5s ease-in-out;
   -webkit-box-shadow: 1px 1px 7px rgb(0,0,0,0.3);
   box-shadow: 1px 1px 7px rgb(0,0,0,0.3);
+  -webkit-appearance: none;
+  -moz-appearance: none;
+  appearance: none;
 }
 
 .card-img-overlay {
@@ -426,7 +432,7 @@ a#cms-co-gov.card-link:hover{
 
 #cms-co-gov .card-img-background {
   background-image: url('images/maroon-bells-co.jpeg');
-  -webkit-transform: scale(110%); 
+  -webkit-transform: scale(110%);
   transform: scale(110%);
 }
 
