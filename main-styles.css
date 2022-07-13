@@ -601,6 +601,6 @@ section#resume div.card {
   }
   
     .top-hero-container {
-      background-image: initial;
+      background-attachment: initial;
   }
 }
