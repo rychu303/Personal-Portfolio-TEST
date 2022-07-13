@@ -71,9 +71,6 @@ footer {
   font-weight: 200;
   text-transform: uppercase;
   letter-spacing: 2px;
-  -webkit-appearance: none;
-  -moz-appearance: none;
-  appearance: none;
 }
 
 .secondary-btn {
@@ -82,25 +79,16 @@ footer {
   font-weight: 200;
   text-transform: uppercase;
   letter-spacing: 2px;
-  -webkit-appearance: none;
-  -moz-appearance: none;
-  appearance: none;
 }
 
 .primary-btn:hover {
   background-color: #a8002a;
   color: white;
-  -webkit-appearance: none;
-  -moz-appearance: none;
-  appearance: none;
 }
 
 .secondary-btn:hover {
   background-color: #2b2828;
   color: white;
-  -webkit-appearance: none;
-  -moz-appearance: none;
-  appearance: none;
 }
 
 section#contact {
