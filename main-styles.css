@@ -599,4 +599,8 @@ section#resume div.card {
     display: flex;
     flex-direction: column;
   }
+  
+    .top-hero-container {
+      background-image: initial;
+  }
 }
