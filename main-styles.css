@@ -260,6 +260,10 @@ button.resume-btn:before {
   border-radius: 10px;
   border-style: none;
   min-height: 300px;
+  -webkit-appearance: none;
+  -moz-appearance: none;
+  appearance: none;
+}
 }
 
 section .col-lg-4 {
