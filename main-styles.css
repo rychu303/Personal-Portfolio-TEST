@@ -287,7 +287,8 @@ section .col-lg-4 {
 }
 
 .img-card img {
-  max-width: 90%;
+  width: auto;
+  max-height: 200px;
   -webkit-align-self: center;
   align-self: center;
   padding: 1rem;
@@ -395,11 +396,6 @@ a:hover tindog-title {
 
 /*******SKATUARY CARD CSS********/
 
-#skatuary img {
-  height: 300px;
-  width: auto;
-}
-
 a#skatuary.card-link:hover{
   background-color: rgb(224,74,34,1);
 }
@@ -413,11 +409,6 @@ a#skatuary.card-link:hover{
 }
 
 /*******BEST BUY CARD CSS********/
-
-#best-buy img {
-  height: 300px;
-  width: auto;
-}
 
 a#best-buy.card-link:hover{
   background-color: rgba(0, 70, 190, 1);
@@ -652,4 +643,5 @@ footer ul {
     padding-bottom: 0px;
     height: 70vh;
   }
+
 }
