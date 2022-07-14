@@ -6,7 +6,7 @@
   <meta name="viewport" content="width=device-width, initial-scale=1.0, shrink-to-fit=no">
   <title>Richard Chung</title>
   <!--Bootstrap-->
-  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-eOJMYsd53ii+scO/bJGFsiCZc+5NDVN2yr8+0RDqr0Ql0h+rP48ckxlpbzKgwra6" crossorigin="anonymous" />
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0-beta1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-0evHe/X+R7YkIZDRvuzKMRqM+OrBnVFBL6DOitfPri4tjfHxaWutUpFmBp4vmVor" crossorigin="anonymous">
   <!--Favicon-->
   <link rel="apple-touch-icon" sizes="180x180" href="icons/favicon_io/apple-touch-icon.png">
   <link rel="icon" type="image/png" sizes="32x32" href="icons/favicon_io/favicon-32x32.png">
@@ -100,7 +100,7 @@
         <!--ROW 1 SFC CARD-->
         <div class="col-lg-4 col-sm-6">
           <a id="sfc" class="card img-card card-link" data-bs-toggle="modal" data-bs-target="#sfc-modal" type="button">
-            <img src="images/Saints-Speak-Up-no-background.svg" class="card-img" alt="southampton football club speak up logo">
+            <p class="card-img sfc-title">Southampton Football Club</p>
             <div class="card-img-overlay"></div>
             <div class="card-img-background"></div>
           </a>
@@ -135,7 +135,7 @@
         <!--ROW 2 BEST BUY CARD-->
         <div class="col-lg-4 col-sm-6">
           <a id="best-buy" class="card img-card card-link" data-bs-toggle="modal" data-bs-target="#best-buy-modal" type="button" tab-index="0">
-            <img src="images/BestBuy-Logo-Light.svg" class="card-img" alt="Best Buy logo">
+            <p class="card-img best-buy-title">Best Buy</p>
             <div class="card-img-overlay"></div>
             <div class="card-img-background"></div>
           </a>
@@ -144,7 +144,7 @@
         <!--ROW 2 CMS.CO.GOV TRAINING COURSES CARD-->
         <div class="col-lg-4 col-sm-12">
           <a id="cms-co-gov" class="card img-card card-link" data-bs-toggle="modal" data-bs-target="#cms-co-gov-modal" type="button" tab-index="0">
-            <img src="images/co_state_web_portal_rgb_v_2.png" class="card-img" alt="colorado state logo">
+            <img src="images/co_state_web_portal_rgb_v_2.png" class="card-img" alt="Colorado.gov Logo">
             <div class="card-img-overlay"></div>
             <div class="card-img-background"></div>
           </a>
@@ -176,6 +176,7 @@
               <p>This site was built off of Acquia's Site Studio platform using the proprietary customized CMS owned by OneTrust. It's built to be fully responsive and accessible.</p>
 
               <a type="button" class="btn primary-btn" href="https://sfc.speakuptrust.com/" target="_blank">Visit Site</a>
+
             </div>
           </div>
         </div>
@@ -251,7 +252,6 @@
 
               <p>Skatuary.com is built on the ExpressEngine CMS platform.</p>
 
-              <a type="button" class="btn primary-btn" href="https://skatuary.com/" target="_blank">Visit Site</a>
             </div>
           </div>
         </div>
@@ -349,7 +349,6 @@
           </div>
         </div>
       </div>
-
     </div>
   </section>
 
@@ -361,18 +360,83 @@
       <div class="row justify-content-center">
         <div class="col">
           <ul class="footer-menu">
-            <li><a href="#about-me">About Me</a></li>
-            <li><a href="#portfolio">Portfolio</a></li>
-            <li><a href="#resume">Resume</a></li>
+            <li><a href="#about-me" tabindex="0">About Me</a></li>
+            <li><a href="#portfolio" tabindex="0">Portfolio</a></li>
+            <li><a href="#resume" tabindex="0">Resume</a></li>
             <li><a href="#contact">Contact</a></li>
+            <li><a class="footer-modal" data-bs-toggle="modal" data-bs-target="#attribution" tabindex="0">Attribution</a></li>
           </ul>
         </div>
       </div>
     </div>
   </footer>
 
-  <!--BOOTSTRAP JS-->
-  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM" crossorigin="anonymous"></script>
+  <!--ATTRIBUTION MODAL-->
+  <div class="modal fade" id="attribution" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+    <div class="modal-dialog">
+      <div class="modal-content">
+        <div class="modal-header">
+          <h5 class="modal-title" id="attribution">Attribution</h5>
+          <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+        </div>
+        <div class="modal-body">
+          <div class="row row-cols-2 attribution-row">
+            <div class="col col-3">
+              <img src="images/co_state_web_portal_rgb_v_2.png" alt="southampton-soccer-game">
+            </div>
+            <div class="col">
+              <div class="container">
+                <div class="row">
+                  <div class="col-3">Title:</div>
+                  <div class="col">Colorado State Logo</div>
+                </div>
+                <div class="row">
+                  <div class="col-3">Autor:</div>
+                  <div class="col">Colorado</div>
+                </div>
+                <div class="row">
+                  <div class="col-3">Link</div>
+                  <div class="col"><a href="-https://dcs.colorado.gov/ids/state-branding-guidelines/the-elements#Logo">View Here</a></div>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="row row-cols-2 attribution-row">
+            <div class="col col-3">
+              <img src="images/southampton-football-player.jpg" alt="southampton-soccer-game">
+            </div>
+            <div class="col">
+              <div class="container">
+                <div class="row">
+                  <div class="col-3">Title:</div>
+                  <div class="col">Southampton FC Versus Sevilla</div>
+                </div>
+                <div class="row">
+                  <div class="col-3">Autor:</div>
+                  <div class="col">Steve Hogg</div>
+                </div>
+                <div class="row">
+                  <div class="col-3">Link</div>
+                  <div class="col"><a href="https://www.flickr.com/photos/cosmiceggproductions/35820873034/in/photolist-XM2iK3-XCULzc-XCUeTn-XMhBxx-WBBwTe-WL7R5t-WBBLCi-XM2kSE-XR8jWp-Wznkzd-Xf7DEo-XVsVvd-XR8mE4-XVsW8f-WL7TQD-WL7S9H-XMhzM8-XR8p66-XM28K3-XVsWK7-WznaoG-XZBbVR-WL7RAD-XM25UU-WL7T8g-XVsTbU-WHSVkU-XMhxjH-WL7SnZ-XZBaSD-WL7SwM-XVsUQW-XVsVNh-WL7SKc-XZBb64-XMhAjk-XZBaFr-XZBbSz-XVsWt5-WL7SR4-XMhxGr-WL7SWe-XMhBR8-XZBaZc-XMhCov-WL7RNT-WL7RWZ-XVsWVN-XVsXsE-XozBvw">View Here</a></div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <!--BOOTSTRAP JS-->
+    <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.11.5/dist/umd/popper.min.js" integrity="sha384-Xe+8cL9oJa6tN/veChSP7q+mnSPaj5Bcu9mPX5F5xIGE0DVittaqT5lorf0EI7Vk" crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0-beta1/dist/js/bootstrap.min.js" integrity="sha384-kjU+l4N0Yf4ZOJErLsIcvOU2qSb74wXpOhqTvwVx3OElZRweTnQ6d31fXEoRD1Jy" crossorigin="anonymous"></script>
+    <script>
+      const popoverTriggerList = document.querySelectorAll('[data-bs-toggle="popover"]')
+      const popoverList = [...popoverTriggerList].map(popoverTriggerEl => new bootstrap.Popover(popoverTriggerEl))
+
+      const popover = new bootstrap.Popover('.popover-dismiss', {
+        trigger: 'focus'
+      })
+    </script>
 </body>
 
 </html>
