@@ -595,10 +595,6 @@ section#resume div.card {
     margin-bottom: 65px;
   }
 
-  .top-hero-container {
-  background-attachment: initial;
-  }
-
   .download-resume-container {
     background-attachment: initial;
     height: 70vh;
@@ -613,6 +609,11 @@ section#resume div.card {
 }
 
 @media screen and (max-width: 768px){
+  
+  .top-hero-container {
+  background-attachment: initial;
+  }
+
   .about-me-row {
     display: flex;
     flex-direction: column;
