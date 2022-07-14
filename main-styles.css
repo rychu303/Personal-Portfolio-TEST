@@ -618,6 +618,8 @@ section#resume div.card {
 
   #about-me {
   background-attachment: initial;
+  padding-top: 50px;
+  padding-bottom: 50px;
   }
 
 
@@ -629,6 +631,14 @@ section#resume div.card {
   .headshot {
     padding-bottom: 30px;
     padding-top: 14px;
+  }
+
+  .portfolio-row-top {
+    padding-top: 50px;
+  }
+
+  .portfolio-row-bottom {
+    padding-bottom: 50px;
   }
 
   .download-resume-container {
