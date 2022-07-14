@@ -551,7 +551,7 @@ section#resume div.card {
 
 /********* Media Viewport Settings **********/
 
-@media screen and (max-width: 576px) {
+@media screen and (max-width: 768px) {
 
   footer {
     padding-top: 12px;
