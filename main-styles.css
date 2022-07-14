@@ -600,9 +600,14 @@ section#resume div.card {
     margin-bottom: 65px;
   }
 
-  .top-hero-container, .download-resume-container {
+  .top-hero-container {
   background-attachment: initial;
   }
+  
+  .download-resume-container-overlay {
+  padding-top: 0px;
+  padding-bottom: 0px;
+  background-attachment: initial;
 }
 
 @media (max-width: 767.98){
