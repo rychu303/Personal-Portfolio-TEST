@@ -35,7 +35,7 @@ footer {
   background-color: #171717;
   color: white;
   padding-top: 30px;
-  padding-bottom: 12px;
+  padding-bottom: 30px;
   text-align: center;
 }
 
@@ -516,15 +516,18 @@ section#resume div.card {
 
 /**********FOOTER SECTION*********/
 
+footer ul {
+  margin-bottom: 0px;
+}
+
 .footer-menu {
   display: block;
   list-style: none;
-  padding-top: 12px;
 }
 
 .footer-menu li {
   display: inline-block;
-  padding: 0 1rem 0;
+  padding: 0px;
 }
 
 .footer-menu li {
@@ -533,6 +536,11 @@ section#resume div.card {
 
 .footer-menu li:first-child {
   border-left: none;
+  padding-left: 0px;
+}
+
+.footer-menu li:last-child {
+  padding-right: 0px;
 }
 
 .footer-menu li a {
@@ -542,6 +550,8 @@ section#resume div.card {
   font-weight: 200;
   text-transform: uppercase;
   letter-spacing: 2px;
+  padding-left: 1rem;
+  padding-right: 1rem;
 }
 
 .footer-menu li a:hover {
@@ -598,10 +608,6 @@ section#resume div.card {
 }
 
 @media screen and (max-width: 768px){
-
-  footer {
-    padding-top: 12px;
-  }
 
   .top-hero-container {
   background-attachment: initial;
