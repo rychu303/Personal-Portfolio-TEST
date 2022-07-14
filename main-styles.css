@@ -480,6 +480,7 @@ a#cms-co-gov.card-link:hover{
   padding-top: 2rem;
   padding-bottom: 2rem;
   background-repeat: no-repeat;
+  -webkit-background-size: cover;
   background-size: cover;
   background-attachment: fixed;
   background-position: center;
@@ -492,11 +493,17 @@ a#cms-co-gov.card-link:hover{
   padding-top: 2rem;
   padding-bottom: 2rem;
   position: absolute;
+  display: -webkit-flex;
   display: flex;
+  -webkit-flex-direction: column;
   flex-direction: column;
+  -webkit-align-content: center;
   align-content: center;
+  -webkit-align-items: center;
   align-items: center;
+  -webkit-justify-content: center;
   justify-content: center;
+  -webkit-flex-wrap: wrap;
   flex-wrap: wrap;
 }
 
@@ -592,13 +599,15 @@ section#resume div.card {
   .more-sites {
     margin-bottom: 65px;
   }
-  
-  .top-hero-container {
+
+  .top-hero-container, .download-resume-container {
   background-attachment: initial;
   }
 }
 
 @media (max-width: 767.98){
+
+  @media (max-width: 767.98){
   .about-me-row {
     display: flex;
     flex-direction: column;
