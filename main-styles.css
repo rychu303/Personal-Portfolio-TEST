@@ -583,11 +583,6 @@ section#resume div.card {
     width: 70%
   }
 
-  .headshot {
-    padding-bottom: 30px;
-    padding-top: 14px;
-  }
-
   .portfolio-row-top {
     padding-top: 50px;
   }
@@ -617,10 +612,25 @@ section#resume div.card {
 
 }
 
-@media (max-width: 767.98){
+@media screen and (max-width: 768px){
   .about-me-row {
     display: flex;
     flex-direction: column;
   }
 
+  .headshot {
+    padding-bottom: 30px;
+    padding-top: 14px;
+  }
+
+  .download-resume-container {
+    background-attachment: initial;
+    height: 70vh;
+  }
+
+  .download-resume-container-overlay {
+    padding-top: 0px;
+    padding-bottom: 0px;
+    height: 70vh;
+  }
 }
