@@ -584,14 +584,6 @@ section#resume div.card {
     width: 70%
   }
 
-  .portfolio-row-top {
-    padding-top: 50px;
-  }
-
-  .section-heading-container {
-    margin-bottom: 42px;
-  }
-
   .more-sites {
     margin-bottom: 65px;
   }
@@ -619,9 +611,8 @@ section#resume div.card {
   #about-me {
   background-attachment: initial;
   padding-top: 50px;
-  padding-bottom: 50px;
+  padding-bottom: 25px;
   }
-
 
   .about-me-row {
     display: flex;
@@ -633,12 +624,16 @@ section#resume div.card {
     padding-top: 14px;
   }
 
+  .section-heading-container {
+    margin-bottom: 30px;
+  }
+
   .portfolio-row-top {
     padding-top: 50px;
   }
 
   .portfolio-row-bottom {
-    padding-bottom: 50px;
+    padding-bottom: 0;
   }
 
   .download-resume-container {
