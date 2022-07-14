@@ -554,10 +554,6 @@ section#resume div.card {
 
 @media screen and (max-width: 576px) {
 
-  footer {
-    padding-top: 12px;
-  }
-
   .footer-menu {
     padding-right: 32px;
   }
@@ -602,6 +598,10 @@ section#resume div.card {
 }
 
 @media screen and (max-width: 768px){
+
+  footer {
+    padding-top: 12px;
+  }
 
   .top-hero-container {
   background-attachment: initial;
