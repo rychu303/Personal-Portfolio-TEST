@@ -612,7 +612,7 @@ section#resume div.card {
   
   .top-hero-container {
   background-attachment: initial;
-  transform: scale(101%);
+  width: 100%;
   }
 
   .about-me-row {
