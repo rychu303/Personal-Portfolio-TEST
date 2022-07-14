@@ -542,6 +542,11 @@ a#cms-co-gov.card-link:hover{
   height: auto;
   border: 2px solid #444444;
 }
+
+.attribution-section img {
+  border: none;
+}
+
 .more-sites {
   margin-bottom: 100px;
   margin-top: 60px;
