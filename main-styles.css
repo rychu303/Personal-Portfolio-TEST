@@ -14,7 +14,8 @@ h2 {
   font-weight: 200;
   color: #6c7289;
   text-transform: uppercase;
-  letter-spacing: 5px
+  letter-spacing: 5px;
+  line-height: 22px;
 }
 
 section {
